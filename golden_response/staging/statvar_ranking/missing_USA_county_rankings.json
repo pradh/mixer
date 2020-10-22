@@ -228,7 +228,7 @@
   {
     "title": "Gini Index",
     "statsVars": [
-      "GiniIndex_EcconomicActivity"
+      "GiniIndex_EconomicActivity"
     ],
     "relatedChart": {}
   },

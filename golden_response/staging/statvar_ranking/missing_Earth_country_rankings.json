@@ -170,13 +170,6 @@
     }
   },
   {
-    "title": "Gini Index",
-    "statsVars": [
-      "GiniIndex_EcconomicActivity"
-    ],
-    "relatedChart": {}
-  },
-  {
     "title": "Median Household Income by Race",
     "statsVars": [
       "Median_Income_Household_HouseholderRaceAmericanIndianOrAlaskaNativeAlone",
