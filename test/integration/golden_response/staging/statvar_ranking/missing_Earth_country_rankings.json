@@ -1,5 +1,12 @@
 [
   {
+    "title": "Alcohol consumption per capita (annual)",
+    "statsVars": [
+      "Amount_Consumption_Alcohol_15OrMoreYears_AsFractionOf_Count_Person_15OrMoreYears"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "Arson",
     "statsVars": [
       "Count_CriminalActivities_Arson"
@@ -12,6 +19,13 @@
     }
   },
   {
+    "title": "CO2 emissions per capita",
+    "statsVars": [
+      "Amount_Emissions_CarbonDioxide_PerCapita"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "COVID-19 cumulative cases",
     "statsVars": [
       "CumulativeCount_MedicalConditionIncident_COVID_19_ConfirmedOrProbableCase"
@@ -22,6 +36,33 @@
         "CumulativeCount_MedicalConditionIncident_COVID_19_ConfirmedOrProbableCase"
       ]
     }
+  },
+  {
+    "title": "COVID-19 cumulative deaths",
+    "statsVars": [
+      "CumulativeCount_MedicalConditionIncident_COVID_19_PatientDeceased"
+    ],
+    "relatedChart": {
+      "scale": true,
+      "statsVars": [
+        "CumulativeCount_MedicalConditionIncident_COVID_19_PatientDeceased"
+      ]
+    }
+  },
+  {
+    "title": "Children in employment by gender",
+    "statsVars": [
+      "Count_Person_7To14Years_Female_Employed_AsFractionOf_Count_Person_7To14Years_Female",
+      "Count_Person_7To14Years_Male_Employed_AsFractionOf_Count_Person_7To14Years_Male"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Children in employment",
+    "statsVars": [
+      "Count_Person_7To14Years_Employed_AsFractionOf_Count_Person_7To14Years"
+    ],
+    "relatedChart": {}
   },
   {
     "title": "Citizenship status",
@@ -42,10 +83,30 @@
     }
   },
   {
+    "title": "Cyclones",
+    "statsVars": [
+      "Count_CycloneEvent"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "Disasters",
     "statsVars": [
+      "Count_CycloneEvent",
       "Count_DroughtEvent",
-      "Count_StormSurgeTideEvent"
+      "Count_EarthquakeEvent",
+      "Count_FloodEvent",
+      "Count_StormSurgeTideEvent",
+      "Count_ThunderstormWindEvent",
+      "Count_TornadoEvent",
+      "Count_WildlandFireEvent"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Earthquakes",
+    "statsVars": [
+      "Count_EarthquakeEvent"
     ],
     "relatedChart": {}
   },
@@ -68,6 +129,102 @@
         "Count_Person_EducationalAttainmentDoctorateDegree"
       ]
     }
+  },
+  {
+    "title": "Electricity consumption per capita",
+    "statsVars": [
+      "Amount_Consumption_Electricity_PerCapita"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Energy use (kg of oil equivalent per capita)",
+    "statsVars": [
+      "Amount_Consumption_Energy_PerCapita"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Fertility rate",
+    "statsVars": [
+      "FertilityRate_Person_Female"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Gini index",
+    "statsVars": [
+      "GiniIndex_EconomicActivity"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Government debt",
+    "statsVars": [
+      "Amount_Debt_Government"
+    ],
+    "relatedChart": {
+      "scale": true,
+      "statsVars": [
+        "Amount_Debt_Government"
+      ]
+    }
+  },
+  {
+    "title": "Government expenditures on education (% of GDP)",
+    "statsVars": [
+      "Amount_EconomicActivity_ExpenditureActivity_EducationExpenditure_Government_AsFractionOf_Amount_EconomicActivity_GrossDomesticProduction_Nominal"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Government expenditures on education (% of government expenditure)",
+    "statsVars": [
+      "Amount_EconomicActivity_ExpenditureActivity_EducationExpenditure_Government_AsFractionOf_Amount_EconomicActivity_ExpenditureActivity_Government"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Government expenditures on military (% of GDP)",
+    "statsVars": [
+      "Amount_EconomicActivity_ExpenditureActivity_MilitaryExpenditure_Government_AsFractionOf_Amount_EconomicActivity_GrossDomesticProduction_Nominal"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Government expenditures on military",
+    "statsVars": [
+      "Amount_EconomicActivity_ExpenditureActivity_MilitaryExpenditure_Government"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Gross domestic product growth rate",
+    "statsVars": [
+      "GrowthRate_Amount_EconomicActivity_GrossDomesticProduction"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Gross domestic product per capita",
+    "statsVars": [
+      "Amount_EconomicActivity_GrossDomesticProduction_Nominal_PerCapita"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Gross national income (purchasing power parity)",
+    "statsVars": [
+      "Amount_EconomicActivity_GrossNationalIncome_PurchasingPowerParity"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Gross national income per capita (purchasing power parity)",
+    "statsVars": [
+      "Amount_EconomicActivity_GrossNationalIncome_PurchasingPowerParity_PerCapita"
+    ],
+    "relatedChart": {}
   },
   {
     "title": "Health behaviors",
@@ -292,6 +449,61 @@
     }
   },
   {
+    "title": "Infant mortality rate by gender",
+    "statsVars": [
+      "Count_Death_0Years_Male_AsFractionOf_Count_BirthEvent_LiveBirth_Male",
+      "Count_Death_0Years_Female_AsFractionOf_Count_BirthEvent_LiveBirth_Female"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Infant mortality rate",
+    "statsVars": [
+      "Count_Death_0Years_AsFractionOf_Count_BirthEvent_LiveBirth"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Inward remittance (% of GDP)",
+    "statsVars": [
+      "Amount_Remittance_InwardRemittance_AsFractionOf_Amount_EconomicActivity_GrossDomesticProduction_Nominal"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Inward remittance",
+    "statsVars": [
+      "Amount_Remittance_InwardRemittance"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Labor force participation rate",
+    "statsVars": [
+      "Count_Person_15To64Years_InLaborForce_AsFractionOf_Count_Person_15To64Years"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Labor force",
+    "statsVars": [
+      "Count_Person_InLaborForce"
+    ],
+    "relatedChart": {
+      "scale": true,
+      "statsVars": [
+        "Count_Person_InLaborForce"
+      ]
+    }
+  },
+  {
+    "title": "Life expectancy (years)",
+    "statsVars": [
+      "LifeExpectancy_Person"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "Marital status",
     "statsVars": [
       "Count_Person_MarriedAndNotSeparated",
@@ -310,6 +522,20 @@
         "Count_Person_Separated"
       ]
     }
+  },
+  {
+    "title": "Market capitalization of domestic companies (% of GDP)",
+    "statsVars": [
+      "Amount_Stock_AsFractionOf_Amount_EconomicActivity_GrossDomesticProduction_Nominal"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Market capitalization of domestic companies",
+    "statsVars": [
+      "Amount_Stock"
+    ],
+    "relatedChart": {}
   },
   {
     "title": "Median Age",
@@ -407,6 +633,13 @@
     }
   },
   {
+    "title": "Outward remittance",
+    "statsVars": [
+      "Amount_Remittance_OutwardRemittance"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "Percentage of people without health insurance by gender",
     "statsVars": [
       "Percent_Person_18To64Years_Female_NoHealthInsurance",
@@ -426,26 +659,76 @@
   {
     "title": "Population by age",
     "statsVars": [
+      "Count_Person_Upto4Years",
+      "Count_Person_5To9Years",
       "Count_Person_5To17Years",
+      "Count_Person_10To14Years",
+      "Count_Person_15To19Years",
       "Count_Person_18To24Years",
+      "Count_Person_20To24Years",
+      "Count_Person_25To29Years",
       "Count_Person_25To34Years",
+      "Count_Person_30To34Years",
+      "Count_Person_35To39Years",
       "Count_Person_35To44Years",
+      "Count_Person_40To44Years",
+      "Count_Person_45To49Years",
       "Count_Person_45To54Years",
+      "Count_Person_50To54Years",
+      "Count_Person_55To59Years",
       "Count_Person_60To61Years",
+      "Count_Person_60To64Years",
       "Count_Person_62To64Years",
-      "Count_Person_65To74Years"
+      "Count_Person_65To69Years",
+      "Count_Person_65To74Years",
+      "Count_Person_70To74Years",
+      "Count_Person_75To79Years",
+      "Count_Person_75OrMoreYears",
+      "Count_Person_80OrMoreYears"
     ],
     "relatedChart": {
       "scale": true,
       "statsVars": [
+        "Count_Person_Upto4Years",
+        "Count_Person_5To9Years",
         "Count_Person_5To17Years",
+        "Count_Person_10To14Years",
+        "Count_Person_15To19Years",
         "Count_Person_18To24Years",
+        "Count_Person_20To24Years",
+        "Count_Person_25To29Years",
         "Count_Person_25To34Years",
+        "Count_Person_30To34Years",
+        "Count_Person_35To39Years",
         "Count_Person_35To44Years",
+        "Count_Person_40To44Years",
+        "Count_Person_45To49Years",
         "Count_Person_45To54Years",
+        "Count_Person_50To54Years",
+        "Count_Person_55To59Years",
         "Count_Person_60To61Years",
+        "Count_Person_60To64Years",
         "Count_Person_62To64Years",
-        "Count_Person_65To74Years"
+        "Count_Person_65To69Years",
+        "Count_Person_65To74Years",
+        "Count_Person_70To74Years",
+        "Count_Person_75To79Years",
+        "Count_Person_75OrMoreYears",
+        "Count_Person_80OrMoreYears"
+      ]
+    }
+  },
+  {
+    "title": "Population by gender",
+    "statsVars": [
+      "Count_Person_Female",
+      "Count_Person_Male"
+    ],
+    "relatedChart": {
+      "scale": true,
+      "statsVars": [
+        "Count_Person_Female",
+        "Count_Person_Male"
       ]
     }
   },
@@ -474,6 +757,27 @@
         "Count_Person_WhiteAlone"
       ]
     }
+  },
+  {
+    "title": "Population density (people per km²)",
+    "statsVars": [
+      "Count_Person_PerArea"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Population growth rate",
+    "statsVars": [
+      "GrowthRate_Count_Person"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Population",
+    "statsVars": [
+      "Count_Person"
+    ],
+    "relatedChart": {}
   },
   {
     "title": "Poverty rate by gender",
@@ -573,6 +877,21 @@
     }
   },
   {
+    "title": "Severe wasting among children under 5 by gender",
+    "statsVars": [
+      "Count_Person_Upto4Years_Male_SevereWasting_AsFractionOf_Count_Person_Upto4Years_Male",
+      "Count_Person_Upto4Years_Female_SevereWasting_AsFractionOf_Count_Person_Upto4Years_Female"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Severe wasting among children under 5",
+    "statsVars": [
+      "Count_Person_Upto4Years_SevereWasting_AsFractionOf_Count_Person_Upto4Years"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "State unemployment insurance claims",
     "statsVars": [
       "Count_UnemploymentInsuranceClaim_StateUnemploymentInsurance"
@@ -597,6 +916,37 @@
     }
   },
   {
+    "title": "Unemployment rate by gender",
+    "statsVars": [
+      "UnemploymentRate_Person_Female",
+      "UnemploymentRate_Person_Male"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Unemployment rate by gender",
+    "statsVars": [
+      "UnemploymentRate_Person_Male",
+      "UnemploymentRate_Person_Female"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Unemployment rate",
+    "statsVars": [
+      "UnemploymentRate_Person"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Urban and rural population",
+    "statsVars": [
+      "Count_Person_Urban",
+      "Count_Person_Rural"
+    ],
+    "relatedChart": {}
+  },
+  {
     "title": "Violent crime",
     "statsVars": [
       "Count_CriminalActivities_ViolentCrime"
@@ -607,5 +957,20 @@
         "Count_CriminalActivities_ViolentCrime"
       ]
     }
+  },
+  {
+    "title": "Wasting among children under 5 by gender",
+    "statsVars": [
+      "Count_Person_Upto4Years_Male_Wasting_AsFractionOf_Count_Person_Upto4Years_Male",
+      "Count_Person_Upto4Years_Female_Wasting_AsFractionOf_Count_Person_Upto4Years_Female"
+    ],
+    "relatedChart": {}
+  },
+  {
+    "title": "Wasting among children under 5",
+    "statsVars": [
+      "Count_Person_Upto4Years_Wasting_AsFractionOf_Count_Person_Upto4Years"
+    ],
+    "relatedChart": {}
   }
 ]
